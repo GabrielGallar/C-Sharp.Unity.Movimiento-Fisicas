@@ -32,15 +32,15 @@ Explicación: Al tener los tres objetos un Rigidbody dinámico estos responden a
 
 ### Situación 5
 #### El plano es un objeto cinemático. El cubo es un objeto físico y la esfera es física con 10 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
-<img width="1280" height="720" alt="Sit05" src="https://github.com/user-attachments/assets/7d9ca9db-3a2a-44ec-a893-38ea3c0e13fb" />
+<img width="1280" height="720" alt="Masa10" src="https://github.com/user-attachments/assets/df5cb168-1b60-4e2e-ad3e-5eb22fbb8cb5" />
 
-Explicación: La esfera, al tener más masa, suele sufrir una variación de velocidad menor (viéndose en la aceleración producida por una fuerza o en la respuesta durante una colisión), al igual que en el efecto que colisiona. El plano cinemático no cae ni se desplaza por efecto de la gravedad.
+Explicación: La esfera, al tener más masa, suele sufrir una variación de velocidad menor (viéndose en la aceleración producida por una fuerza o en la respuesta durante una colisión), al igual que aumenta el efecto de colisión. El plano cinemático no cae ni se desplaza por efecto de la gravedad.
 
 ### Situación 6
 #### El plano es un objeto cinemático. El cubo es un objeto físico y la esfera es física con 100 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
-<img width="1280" height="720" alt="Sit06" src="https://github.com/user-attachments/assets/a39863de-0e09-48d5-8bc7-97c229ffc28e" />
+<img width="1280" height="720" alt="Masa100" src="https://github.com/user-attachments/assets/a0e8a5f8-aba4-4f72-934b-5f5a75100bb6" />
 
-Explicación: El contraste con el cubo será mayor que en la situación 5 al igual que su reducción de velocidad.
+Explicación: El contraste con el cubo será mayor que en la situación 5 (al igual que posiblemente su reducción de velocidad).
 
 ### Situación 7
 #### El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con fricción. En este caso, todos los objetos deben tener Rigidbody.
