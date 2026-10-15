@@ -2,6 +2,60 @@
 Esta es la segunda práctica de la asignatura "Interfaces Inteligentes"
 
 ## Ejercicio Físicas 3D - Situaciones
+### Situación 1
+#### y = 0.5
+<img width="1280" height="720" alt="Sit01" src="https://github.com/user-attachments/assets/88bd0967-e5cf-4058-9171-2e188526b066" />
+
+#### y > 0.5
+<img width="1280" height="720" alt="Sit01 2" src="https://github.com/user-attachments/assets/7def309c-84fe-4f45-b2cd-de3209ac1c29" />
+
+Explicación: El cubo es el único objeto cuya dinámica se simula mediante un Rigidbody, mientras que el plano y la esfera tienen Collider, pero no se simula su movimiento mediante un Rigidbody.
+
+### Situación 2
+<img width="1280" height="720" alt="Sit02" src="https://github.com/user-attachments/assets/fbbffcd2-ef7f-47ef-b339-45c4f76e2b16" />
+
+Explicación: Tanto el cubo como la esfera responden a la gravedad debido a que disponen de un Rigidbody dinámico (sus movimientos dependen de las fuerzas, la gravedad, las masas y los contactos entre colliders) y pueden colisionar entre sí y con el plano.
+
+### Situación 3
+<img width="1280" height="720" alt="Sit03" src="https://github.com/user-attachments/assets/a10b8f56-2e5a-4c5d-875d-ae88999f8a40" />
+
+Explicación: El cubo cae por efecto de la gravedad (Rigidbody dinámico), mientras que la esfera no cae por gravedad si tiene "Is Kinematic" activado (Rigidbody cinemático), por otro lado al no disponer el plano de un Rigidbody este no se ve afectado por el motor de físicas.
+
+### Situación 4
+<img width="1280" height="720" alt="Sit04" src="https://github.com/user-attachments/assets/cd625415-060d-4437-8fab-eba31b4d9dd0" />
+
+Explicación: Al tener los tres objetos un Rigidbody dinámico estos responden a la gravedad y fuerzas. Si el plano tiene la gravedad activada, también puede moverse o caer, a diferencia de un plano estático sin Rigidbody o cinemático.
+
+### Situación 5
+<img width="1280" height="720" alt="Sit05" src="https://github.com/user-attachments/assets/7d9ca9db-3a2a-44ec-a893-38ea3c0e13fb" />
+
+Explicación: La esfera, al tener más masa, suele sufrir una variación de velocidad menor (viéndose en la aceleración producida por una fuerza o en la respuesta durante una colisión), al igual que en el efecto que colisiona. El plano cinemático no cae ni se desplaza por efecto de la gravedad.
+
+### Situación 6
+<img width="1280" height="720" alt="Sit06" src="https://github.com/user-attachments/assets/a39863de-0e09-48d5-8bc7-97c229ffc28e" />
+
+Explicación: El contraste con el cubo será mayor que en la situación 5 al igual que su reducción de velocidad.
+
+### Situación 7
+<img width="1280" height="720" alt="Sit07" src="https://github.com/user-attachments/assets/1bde12cb-b287-4368-9aa5-73b0006e435f" />
+
+#### F-
+<img width="1280" height="720" alt="Sit7F-" src="https://github.com/user-attachments/assets/acb7a359-21a8-4b1a-9229-830b1c73365b" />
+
+#### F+
+<img width="1280" height="720" alt="Sit7F+" src="https://github.com/user-attachments/assets/159c78ba-583e-4a32-ab66-d24ffea5e2bf" />
+
+Explicación: La fricción afecta al deslizamiento de la esfera cuando está en contacto con el plano o con otros objetos, pudiendo reducir el deslizamiento y dificultar que el objeto comience a moverse.
+
+### Situación 8
+<img width="1280" height="720" alt="Sit08" src="https://github.com/user-attachments/assets/8587843f-b68b-46d1-9199-1ac444e86828" />
+
+Explicación: Al tener el plano un Rigidbody cinemático este no se ve influenciado por al gravedad, al igual que con la esfera por tener un Collider que detecta solapamientos sin generar una respuesta de colisión sólida ("Is Trigger").
+
+### Situación 9
+<img width="1280" height="720" alt="Sit09" src="https://github.com/user-attachments/assets/a18d05de-96e2-4856-b7d5-d8206d23a9a6" />
+
+Explicación: La esfera puede caer por gravedad y moverse como un cuerpo dinámico por su Rigidbody dinámico, pero su Collider configurado como Trigger no genera una colisión sólida al entrar en contacto con el cubo o el plano.
 
 ## Ejercicios Físicas 3D - Scripts
 
