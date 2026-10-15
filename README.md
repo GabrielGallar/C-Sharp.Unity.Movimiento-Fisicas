@@ -47,10 +47,10 @@ Explicación: El contraste con el cubo será mayor que en la situación 5 al igu
 <img width="1280" height="720" alt="Sit07" src="https://github.com/user-attachments/assets/1bde12cb-b287-4368-9aa5-73b0006e435f" />
 
 #### F-
-<img width="1280" height="720" alt="Sit7F-" src="https://github.com/user-attachments/assets/acb7a359-21a8-4b1a-9229-830b1c73365b" />
+<img width="1280" height="720" alt="Fric0" src="https://github.com/user-attachments/assets/e855f571-27ea-46d2-805c-3761eb756ee8" />
 
 #### F+
-<img width="1280" height="720" alt="Sit7F+" src="https://github.com/user-attachments/assets/159c78ba-583e-4a32-ab66-d24ffea5e2bf" />
+<img width="1280" height="720" alt="FricMax" src="https://github.com/user-attachments/assets/03d0eb56-a978-4c30-8e3c-638b2358431f" />
 
 Explicación: La fricción afecta al deslizamiento de la esfera cuando está en contacto con el plano o con otros objetos, pudiendo reducir el deslizamiento y dificultar que el objeto comience a moverse.
 
@@ -58,7 +58,7 @@ Explicación: La fricción afecta al deslizamiento de la esfera cuando está en 
 #### El plano es un objeto cinemático. El cubo es un objeto físico y la esfera no es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
 <img width="1280" height="720" alt="Sit08" src="https://github.com/user-attachments/assets/8587843f-b68b-46d1-9199-1ac444e86828" />
 
-Explicación: Al tener el plano un Rigidbody cinemático este no se ve influenciado por al gravedad, al igual que con la esfera por tener un Collider que detecta solapamientos sin generar una respuesta de colisión sólida ("Is Trigger").
+Explicación: Al tener el plano un Rigidbody cinemático este no se ve influenciado por al gravedad, al igual que con la esfera por tener un Rigidbody cinemático o no físico, mientras que su Collider detecta solapamientos sin generar una respuesta de colisión sólida ("Is Trigger").
 
 ### Situación 9
 #### El plano es un objeto cinemático. El cubo es un objeto físico y la esfera es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
